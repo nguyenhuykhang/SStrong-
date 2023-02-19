@@ -32,7 +32,7 @@ function ShowMap() {
     });
   }, []);
 
-  const apiKey = "AIzaSyD-j6P9EJ_evf-WWiy1j36A6WmYd7Ck8tQ";
+  const apiKey = "ADD_YOUR_KEY_API";
 
 
   return <div id="map" style={{ height: "400px" }}>
