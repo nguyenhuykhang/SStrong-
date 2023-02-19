@@ -1,0 +1,109 @@
+.Demo {
+    text-align: center;
+    
+  }
+  
+.onlydiv {
+    background-image: url("https://www.linkforcounselors.com/wp-content/uploads/2017/09/20141010KAS8030.jpg"); 
+}
+  /* body {
+    background: linear-gradient(gray, black);
+  } */
+  .chat-item {
+    width: 46%;
+  }
+  .your-message {
+    background: #9ccae9;
+    margin: 1em;
+    border-radius: 1em;
+    padding: 1em;
+    color: rgb(10, 1, 1);
+    float: right;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .other-people {
+    background: #868686;
+    margin: 1em;
+    border-radius: 1em;
+    padding: 1em;
+    color: rgb(13, 10, 10);
+    text-align: left;
+    float: left;
+    font-weight: bold;
+  }
+  
+  .box-chat_message {
+    min-height: 60vh;  
+    max-height: 60vh;  
+    overflow-y: auto;
+    
+  }
+  .box-chat {
+    width:70%;
+    margin: 0 auto;
+    margin-top: 50px;
+    box-shadow: 0 0 30px 0 rgb(232, 192, 16);
+    border-radius: 1em;
+    border: 1px dashed;
+   
+    background-blend-mode: color-burn;
+    
+    
+  }
+  
+  .send-box {
+    width: 100%;
+    padding: 1em;
+  }
+  
+  .textarea {
+    width: 70%;
+    margin: 0;
+    padding: 0.9em;
+    background: #ebf5ff;
+    border-radius: 2em; 
+    display: flex;
+    float: left;
+  }
+  
+  button {
+    width: 10%;
+    background: #190b76;
+    color: white;
+    margin-left: 10px;
+    border: none;
+    border-radius: 1em;
+    cursor: pointer;
+    padding: 1em;
+    text-align: center;
+  
+  }
+  button:hover {
+    background: black;
+  }
+  .textarea:focus {outline:0;}
+  
+  
+  /* width */
+  ::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #dadada;
+    border-radius: 1em;
+  
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }

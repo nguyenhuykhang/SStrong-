@@ -1,0 +1,86 @@
+.Map {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Times New Roman', Times, serif;
+}
+.Sidebar {
+    display: flex;
+    flex-direction: row;
+    padding: 2%;
+    align-items: center;
+    background-color: #FEBE10;
+
+
+}
+.avaifr {
+    font-weight: bolder;
+    font-size:x-large;
+}
+.emergency{
+    padding: 15px;
+    font-size: larger;
+    font-weight: bold;
+    gap: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    margin: 10px;
+    width: 400px;
+    height: 100px;
+    border: 2px solid rgb(7, 13, 54);
+    border-radius: 5px;
+}
+.Mylocation {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    font-size: large;
+    justify-content: center;
+    background-color: #0d1c45;
+    color: aliceblue;
+}
+
+
+
+/* CSS */
+.button-42 {
+    
+  background-color: initial;
+  background-image: linear-gradient(-10deg, #dc2c10, #E62C03);
+  border-radius: 6px;
+  box-shadow: rgba(20, 23, 109, 0.896) 0 2px 4px;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family:'Times New Roman', Times, serif;
+  height: 40px;
+  line-height: 40px;
+  outline: 0;
+  overflow: hidden;
+  padding: 0 20px;
+  pointer-events: auto;
+  position: relative;
+  text-align: center;
+  touch-action: manipulation;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: top;
+  white-space: nowrap;
+  width: 40%;
+  z-index: 9;
+  border: 0;
+  transition: box-shadow .2s;
+}
+
+.button-42:hover {
+  box-shadow: rgb(226, 33, 33) 0 3px 8px;
+}
+
+.avatar {
+    vertical-align: middle;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+  }
