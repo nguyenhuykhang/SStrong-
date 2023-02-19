@@ -24,7 +24,7 @@ const center = { lat: 42.7210915, lng: -84.48951710000001}
 
 function Findmy() {
   const { isLoaded } = useJsApiLoader({
-    googleMapsApiKey: 'AIzaSyD-j6P9EJ_evf-WWiy1j36A6WmYd7Ck8tQ',
+    googleMapsApiKey: 'ADD YOURS',
     libraries: ['places'],
   })
 
