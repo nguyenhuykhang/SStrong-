@@ -10,7 +10,7 @@ function Map() {
   useEffect(() => {
     navigator.geolocation.getCurrentPosition(async (pos) => {
       const { latitude, longitude } = pos.coords;
-      const url = `https://maps.googleapis.com/maps/api/geocode/json?latlng=${latitude},${longitude}&key=AIzaSyD-j6P9EJ_evf-WWiy1j36A6WmYd7Ck8tQ`;
+      const url = `https://maps.googleapis.com/maps/api/geocode/json?latlng=${latitude},${longitude}&key=ADD_YOUR_KEY_API`;
       const response = await axios.get(url);
       const data = response.data;
       setLocationInfo(data.results[0]);
