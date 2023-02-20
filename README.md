@@ -3,7 +3,19 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
-First, create your firebase to get the FireBase Config and create Google Cloud Console to get your key API
+#First, create your firebase to get the FireBase Config and create Google Cloud Console to get your key API
+
+##
+1. [Firebase] - Authentication and Database
+2. [HTML], [CSS], [Javascript], [ReactJS], [Bootstrap], [Lodash] - Front-end development
+3. [Google Cloud], [Google API], [Geolocation API], [Direction API]- Determine current location and visualize the map
+4. [Python] - Data preparation and implementing algorithms
+5. [socket.io] - Real-time messaging
+6. [Twilio] - Send emergency messages via SMS
+7. [node.js], [express.js] - Server and package manager
+8. [Git], [GitHub] - Version control and code storage
+9. [OpenStreetMap] - Collect map data as .osm files
+10. [BBBike] - Convert data from .osm files into .geojson files which are easier to modify and extract
 
 In the project directory, you can run:
 
