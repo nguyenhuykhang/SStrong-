@@ -5,7 +5,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Available Scripts
 #First, create your firebase to get the FireBase Config and create Google Cloud Console to get your key API
 
-##
+## Tech 
 1. [Firebase] - Authentication and Database
 2. [HTML], [CSS], [Javascript], [ReactJS], [Bootstrap], [Lodash] - Front-end development
 3. [Google Cloud], [Google API], [Geolocation API], [Direction API]- Determine current location and visualize the map
@@ -17,6 +17,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 9. [OpenStreetMap] - Collect map data as .osm files
 10. [BBBike] - Convert data from .osm files into .geojson files which are easier to modify and extract
 
+##
 In the project directory, you can run:
 
 ### `npm start`
